@@ -1,0 +1,9 @@
+drag admanager prefab to scene.
+make sure you have a canvas object in the scene. Assign the canvas to the admanager. Adjust the image size of the raw image child in AdManager to fit the size you want. Create a new render texture if needed and assign it to the Player child in AdManager.
+
+How to use.
+
+Setup an callback listener and call the manager.Play();
+Se AdTester.cs for "full" example
+
+
